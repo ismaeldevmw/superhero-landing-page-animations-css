@@ -300,4 +300,63 @@ body {
   grid-column: 4/7;
   grid-row: 1/2;
   background-color: var(--primary);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  background-color: var(--primary);
+  border-radius: 0 80px 0 0;
+  transform: translateY(100%);
+  -webkit-animation-name: footer;
+          animation-name: footer;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-delay: 2.5s;
+          animation-delay: 2.5s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes footer {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes footer {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.footer div {
+  width: 130px;
+  height: 50%;
+  background-color: var(--secondary);
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer div img {
+  width: 160px;
+  position: absolute;
+  bottom: 30px;
+  transform: translateY(0px) scale(1);
+  transition: transform 0.5s ease-in-out;
+}
+
+.footer div:hover img {
+  cursor: pointer;
+  transform: translateY(-20px) scale(1.1);
+  transition: transform 0.3s ease-in-out;
 }/*# sourceMappingURL=main.css.map */
