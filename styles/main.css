@@ -127,4 +127,51 @@ body {
   50% {
     transform: scale(1);
   }
+}
+.navbar {
+  background: var(--primary);
+}
+
+.navbar__content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0 0 0 80px;
+  -webkit-animation: 2s navbar 0.5s ease-in-out;
+          animation: 2s navbar 0.5s ease-in-out;
+}
+
+@-webkit-keyframes navbar {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes navbar {
+  from {
+    transform: translateY(-200px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.navbar__content img {
+  width: 50px;
+}
+
+.navbar__content ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  padding: 0;
+  width: 450px;
+}
+
+.navbar__content ul li a {
+  color: var(--accent);
+  font-weight: 100;
+  text-decoration: none;
 }/*# sourceMappingURL=main.css.map */
