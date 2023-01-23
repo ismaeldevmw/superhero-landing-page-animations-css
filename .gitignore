@@ -46,4 +46,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# no-source-map
+styles/main.css.map
+styles/tablet.css.map
+
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode

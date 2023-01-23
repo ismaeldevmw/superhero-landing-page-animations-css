@@ -1,0 +1,26 @@
+{
+  "name": "landing-page-super-hero",
+  "version": "1.0.0",
+  "description": "Open the index.html file with Live Server",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass --no-source-map -w styles/main.scss:styles/main.css styles/tablet.scss:styles/tablet.css",
+    "sass:debug": "sass --no-source-map  styles/main.scss:styles/main.css styles/tablet.scss:styles/tablet.css",
+    "sass:release": "sass --style=compressed styles/main.scss:styles/main.css styles/tablet.scss:styles/tablet.css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ismaeldevmw/superhero-landing-page-css-animations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ismaeldevmw/superhero-landing-page-css-animations/issues"
+  },
+  "homepage": "https://github.com/ismaeldevmw/superhero-landing-page-css-animations#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}
