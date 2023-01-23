@@ -1,5 +1,7 @@
 .navbar {
   background: var(--primary);
+  grid-area: nav;
+  display: flex;
 }
 .navbar__content {
   display: flex;

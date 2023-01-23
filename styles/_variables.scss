@@ -14,11 +14,11 @@
 
 /* Font and typography */
 $body-font: 'DM Sans', sans-serif;
-$h1-font-size: 2rem;
-$normal-font-size: 0.938rem;
+$normal-font-size: 1.6rem;
+$h1-font-size: 4.8rem;
 
 /* Font weight */
-$font-light: 100;
+$font-light: 400;
 $font-semi-bold: 500;
 $font-bold: 700;
 
@@ -31,6 +31,6 @@ $mb-5: 2.5rem;
 $mb-6: 3rem;
 
 @media screen and (min-width: 968px) {
-  $h1-font-size: 3rem;
-  $normal-font-size: 1rem;
+  $h1-font-size: 5rem;
+  $normal-font-size: 1.8rem;
 }

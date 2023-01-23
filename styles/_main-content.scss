@@ -1,0 +1,32 @@
+.main-content {
+  grid-area: section;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+
+  animation: 2s main-content 0.5s ease-in-out;
+}
+.main-content p:first-child {
+  font-size: 3.6rem;
+  font-weight: $font-semi-bold;
+  margin: 0 0 -14px 65px;
+}
+.main-content h1 {
+  font-size: $h1-font-size;
+  font-weight: $font-bold;
+  margin: 0 0 28px 0;
+}
+.main-content p:last-child {
+  font-weight: $font-light;
+  margin: 0;
+  width: 65%;
+}
+@keyframes main-content {
+  from {
+    transform: translateY(-600px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
