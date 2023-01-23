@@ -1,0 +1,22 @@
+.hidden {
+  display: none !important;
+}
+.visible {
+  display: grid;
+}
+.modal {
+  width: 100%;
+  height: 100%;
+  background: rgba($color: #000000, $alpha: 0.5);
+  position: absolute;
+  z-index: 3;
+  display: grid;
+  place-items: center;
+}
+.modal__content {
+  background: var(--just-white);
+  width: 50%;
+  height: 50%;
+}
+.modal__close {
+}
