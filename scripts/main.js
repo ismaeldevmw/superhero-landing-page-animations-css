@@ -1,6 +1,6 @@
 const modal = document.querySelector('.modal');
 const buttons = document.querySelectorAll('.footer div');
-const close = document.querySelector('.modal__close');
+const close = document.querySelector('.modal-content__close');
 
 buttons.forEach((button) => {
   button.addEventListener('click', () => {

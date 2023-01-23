@@ -46,7 +46,7 @@
           <p>Superman</p>
           <img
             src="assets/images/characters/super-man.png"
-            alt="Super hero superman"
+            alt="Super héroe superman"
           />
         </section>
 
@@ -54,19 +54,19 @@
           <div>
             <img
               src="assets/images/characters/spiderman.png"
-              alt="Super hero spiderman"
+              alt="Super héroe spiderman"
             />
           </div>
           <div>
             <img
               src="assets/images/characters/batman.webp"
-              alt="Super hero batman"
+              alt="Super héroe batman"
             />
           </div>
           <div>
             <img
               src="assets/images/characters/robin.png"
-              alt="Super hero robin"
+              alt="Super héroe robin"
             />
           </div>
         </section>
@@ -81,12 +81,40 @@
 
       <!-- Modal -->
       <section class="modal hidden">
-        <div class="modal__content">
+        <div class="modal-content">
           <img
-            class="modal__close"
+            class="modal-content__close"
             src="assets/icons/close-window.png"
-            alt="Close icon"
+            alt="Ícono de cerrar"
           />
+
+          <div class="modal-content__slider">
+            <input type="radio" name="slider-1" id="radio-1" checked />
+            <input type="radio" name="slider-1" id="radio-2" />
+            <input type="radio" name="slider-1" id="radio-3" />
+
+            <div class="cards">
+              <label for="radio-1" id="card-1" class="card">
+                <img
+                  src="assets/images/slider/spider-man.png"
+                  alt="Imagen super heroe"
+                />
+              </label>
+              <label for="radio-2" id="card-2" class="card">
+                <img
+                  src="assets/images/slider/spider-man-2.png"
+                  alt="Imagen super heroe"
+                />
+              </label>
+              <label for="radio-3" id="card-3" class="card">
+                <img
+                  src="assets/images/slider/spider-man-3.webp"
+                  alt="Imagen super heroe"
+                />
+              </label>
+            </div>
+          </div>
+          <button class="modal-content__button">Lo quiero</button>
         </div>
       </section>
     </div>

@@ -29,6 +29,8 @@
   width: 100%;
   grid-column: 2 /6;
   grid-row: 1 /2;
+  box-sizing: border-box;
+  padding: 20px;
 
   animation: 2s side-content-img 0.5s ease-in-out;
 }
