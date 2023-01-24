@@ -1,19 +1,13 @@
 :root {
   --primary: #ffd602;
-  --primary-soft: #ffe9d5;
   --secondary: #036cb6;
-  --secondary-soft: #e7f5ff;
   --accent: #d5040a;
-  --warm-black: #201e1c;
   --black: #282623;
-  --grey: #bababa;
-  --off-white: #faf8f7;
   --just-white: #ffffff;
 }
 
 /* Font and typography */
 /* Font weight */
-/* Margins */
 html {
   font-size: 62.5%;
 }

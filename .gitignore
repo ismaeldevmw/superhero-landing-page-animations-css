@@ -49,5 +49,7 @@ $RECYCLE.BIN/
 # no-source-map
 styles/main.css.map
 styles/tablet.css.map
+styles/main.css
+styles/tablet.css
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode

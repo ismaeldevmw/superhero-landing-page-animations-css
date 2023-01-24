@@ -1,14 +1,9 @@
 :root {
   // colors
   --primary: #ffd602;
-  --primary-soft: #ffe9d5;
   --secondary: #036cb6;
-  --secondary-soft: #e7f5ff;
   --accent: #d5040a;
-  --warm-black: #201e1c;
   --black: #282623;
-  --grey: #bababa;
-  --off-white: #faf8f7;
   --just-white: #ffffff;
 }
 
@@ -21,16 +16,3 @@ $h1-font-size: 4.8rem;
 $font-light: 400;
 $font-semi-bold: 500;
 $font-bold: 700;
-
-/* Margins */
-$mb-1: 0.5rem;
-$mb-2: 1rem;
-$mb-3: 1.5rem;
-$mb-4: 2rem;
-$mb-5: 2.5rem;
-$mb-6: 3rem;
-
-@media screen and (min-width: 968px) {
-  $h1-font-size: 5rem;
-  $normal-font-size: 1.8rem;
-}

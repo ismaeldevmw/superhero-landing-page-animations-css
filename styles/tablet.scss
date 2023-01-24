@@ -1,0 +1,19 @@
+@media screen and (max-width: 968px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto repeat(2, 1fr);
+    grid-template-areas:
+      'nav'
+      'section'
+      'footer';
+  }
+  .navbar__content {
+    flex-direction: column;
+  }
+  .side-content {
+    display: none;
+  }
+  .modal-content {
+    width: 85%;
+  }
+}
