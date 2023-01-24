@@ -12,7 +12,7 @@ Open the index.html file with Live Server
 
 ## Tablet
 ![2023-01-23_18h19_32](https://user-images.githubusercontent.com/13697123/214182439-f5061aea-45dc-426c-92cb-f1af3a5e2bd2.png)
-![2023-01-23_18h19_39](https://user-images.githubusercontent.com/13697123/214182580-acb0665f-1bec-442e-9d79-06bfc483c4d5.png)
+![2023-01-23_18h23_44](https://user-images.githubusercontent.com/13697123/214183340-ac52907e-711a-4491-9bf5-65a071ffac70.png)
 
 ## Desktop
 ![2023-01-23_18h20_23](https://user-images.githubusercontent.com/13697123/214182641-31e98c2f-ffeb-4b30-a960-3e7ff259d9b9.png)
